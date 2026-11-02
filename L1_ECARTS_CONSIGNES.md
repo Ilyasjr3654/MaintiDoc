@@ -2,7 +2,9 @@
 
 Date : 2 novembre 2026. Ce document compare les consignes de `L1_MaintiDoc_Consignes_du_livrable1.pdf` a l'etat **initial** du dossier local, avant la preparation situee dans `livrable1_preparation/`. Il ne tient pas lieu de rapport a deposer.
 
-**Mise a jour :** un corpus de travail de 30 PDF, l'inventaire de 20 colonnes, les prompts et un brouillon PDF de 11 pages sont maintenant disponibles dans `livrable1_preparation/`. Les constats du tableau ci-dessous restent l'historique des ecarts initiaux. La revue humaine, les licences des 18 PDF repris, le depot GitHub et le ZIP final restent a accomplir.
+**Mise a jour :** un corpus de travail de 30 PDF, l'inventaire de 20 colonnes, les prompts et un brouillon PDF de 11 pages sont maintenant disponibles dans `livrable1_preparation/`. Les constats du tableau ci-dessous restent l'historique des ecarts initiaux. La revue humaine, les licences des 18 PDF repris et le ZIP final restent a accomplir.
+
+**Publication GitHub :** le depot public `https://github.com/Ilyasjr3654/MaintiDoc` a ete cree et le projet y est pousse. Les PDF BMW i3 curates, leurs images et les jeux derives non verifies sont exclus de l'historique public. La revue humaine, les licences et le ZIP final restent a accomplir.
 
 ## Exigences et etat constate
 

@@ -4,7 +4,7 @@
 
 Projet de **collecte et constitution du dataset multimodal** pour MaintiDoc.
 
-Le dossier contient les 35 PDF BMW i3, mais aussi tout le code pour transformer automatiquement le corpus en dataset RAG : métadonnées, chunks texte, images, exemples reranker et scénarios d'évaluation.
+Le dossier local contient 35 PDF BMW i3 et le code pour les transformer en dataset RAG : métadonnées, chunks texte, images, exemples reranker et scénarios d'évaluation. Les fichiers BMW i3 dont les droits restent à vérifier sont exclus du dépôt GitHub public.
 
 ## 1. Arborescence
 

@@ -119,7 +119,7 @@ def build():
           Spacer(1, 1.0*cm),
           p("Equipe KHARROUBI-LOULIDI<br/>Ilyas Kharroubi et Ilyas Loulidi<br/>Module IA generative multimodale - EMSI 2026<br/>2 novembre 2026", "CoverMetaL1"),
           Spacer(1, 1.2*cm),
-          p("Statut : brouillon de revue. Les champs de licence, les validations humaines et le lien GitHub ne sont pas encore completes. Ce PDF ne doit pas etre depose tel quel.", "NoteL1"),
+          p("Statut : brouillon de revue. Les champs de licence et les validations humaines ne sont pas encore completes. Le depot GitHub est publie, mais ce PDF ne doit pas etre depose tel quel.", "NoteL1"),
           PageBreak()]
 
     S += section("2.1 Cadrage du projet - contexte", [
@@ -213,8 +213,8 @@ def build():
           ], widths=[1.9*cm, 5.1*cm, 5.1*cm, 4.8*cm]),
           Spacer(1, .45*cm),
           p("Travail restant avant depot", "H2L1"),
-          p("1. Valider la repartition des roles. 2. Relire les 30 PDF, renseigner verifie_par et corrections. 3. Verifier les licences des 18 PDF curates, retirer ceux dont le droit de reutilisation n'est pas etabli. 4. Verifier les visuels et les pages. 5. Creer un depot GitHub accessible a l'enseignante, puis renseigner le vrai lien. 6. Produire le ZIP exact uniquement apres ces controles."),
-          p("Le dossier actuel est une preparation complete sur le plan structurel, mais sa revue documentaire et le depot GitHub restent ouverts.", "NoteL1")]
+          p("1. Valider la repartition des roles. 2. Relire les 30 PDF, renseigner verifie_par et corrections. 3. Verifier les licences des 18 PDF curates, retirer ceux dont le droit de reutilisation n'est pas etabli. 4. Verifier les visuels et les pages. 5. Verifier l'acces au depot GitHub public. 6. Produire le ZIP exact uniquement apres ces controles."),
+          p("Le depot GitHub est publie. La revue documentaire et les droits de reutilisation restent ouverts.", "NoteL1")]
 
     doc.build(S)
     print(OUT)
