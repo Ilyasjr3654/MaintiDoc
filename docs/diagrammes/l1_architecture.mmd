@@ -1,0 +1,18 @@
+flowchart TD
+    U[Technicien ou responsable] --> I[Interface : question, photo, approbation]
+    I --> A[API : identite et controle des droits]
+    A --> O[Orchestration : intention et choix des outils]
+    O --> V[VLM : description de la photo]
+    O --> R[Recherche : filtre par groupe puis classement]
+    O --> M[MCP : historique fictif et tickets]
+    C[PDF et images] --> G[Ingestion : extraction, OCR, decoupage]
+    G --> S[(Stockage : documents, index, metadonnees)]
+    S --> R
+    R --> Q[Controle des citations et versions]
+    V --> Q
+    Q --> O
+    O --> I
+    O --> B[Brouillon de ticket]
+    B --> H{Approbation humaine explicite ?}
+    H -- Oui, cle d'idempotence --> M
+    H -- Non --> I

@@ -1,0 +1,12 @@
+flowchart LR
+    Q[Question et photo] --> A[API : role et droits]
+    A --> V[VLM : description]
+    V --> R[Recherche autorisee]
+    R --> C[Verification citations]
+    C --> REP[Reponse ou clarification]
+    REP --> B[Brouillon de ticket]
+    B --> H{Accord responsable ?}
+    H -- Non --> FIN[Pas de creation]
+    H -- Oui --> K[Cle d'idempotence]
+    K --> MCP[Outil MCP : creer ticket]
+    MCP --> ID[Identifiant du ticket]

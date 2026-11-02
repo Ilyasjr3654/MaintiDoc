@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MaintiDoc: construire le dataset",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/build_dataset.py"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "MaintiDoc: valider le dataset",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/validate_dataset.py"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "MaintiDoc: lancer les tests",
+      "type": "shell",
+      "command": "pytest",
+      "args": ["-q"],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

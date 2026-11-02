@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.DS_Store
+tmp/
+.tmp/
+*.zip
+
+# Source documents and derived content pending reuse-rights review.
+data/raw/pdf/bmw_i3/
+data/raw/images/
+data/processed/
+data/reranker/
+livrable1_preparation/L1_MaintiDoc_KHARROUBI-LOULIDI_Corpus/documents/batterie/bmwi3_*.pdf
+livrable1_preparation/L1_MaintiDoc_KHARROUBI-LOULIDI_Corpus/documents/recharge/bmwi3_*.pdf
